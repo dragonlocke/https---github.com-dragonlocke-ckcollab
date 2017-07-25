@@ -1,0 +1,98 @@
+/* ------------------------------------------------------------------
+Project: Semantic
+Place here your custom CSS styles
+------------------------------------------------------------------ */
+.module {
+	/*background-color: red;*/
+
+	background-image: url("../images/bg_pattern.jpg");
+	background-repeat: repeat;
+	-webkit-background-size: inherit;
+}
+
+.wrapper {
+	background-color: transparent;
+}
+
+
+#top-description {
+	background-color: white;
+}
+
+#ckhead {
+	font-family: "Overpass";
+	font-size: 60px;
+	text-align: center;
+	color:#ef6d7e;
+	font-weight: bold;	
+	margin:40px;
+}
+
+/* ------------------------------------------------------------------
+Logos (section 1)
+------------------------------------------------------------------ */
+#images {
+	/*width: 1170px;*/
+}
+
+#images img {
+	height: auto;
+	width: auto;
+	max-width: 135px;
+	max-height: 135px;
+	float: left;
+	position: relative;
+	padding: 10px 20px 20px 10px;
+	margin-bottom: 30px;
+	
+	
+}
+
+#ckcollab_logo {
+	height: 70px;
+}
+
+.navbar:not(.navbar-transparent) #ckcollab_logo {
+	height: 50px;
+}
+
+
+/*.ckclogo {
+	fill: white;
+	opacity: .75;
+}*/
+
+@media (min-width: 768px) {
+	.navbar:not(.navbar-transparent) .navbar-nav>li>a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+}
+
+.horizontal-brands {
+	text-align: center;
+}
+
+/* When navbar does not have class .navbar-transparent, style .ckclogo this way */
+.navbar:not(.navbar-transparent) .ckclogo .letters path,
+.navbar:not(.navbar-transparent) .ckclogo .border  {
+	fill: white;
+}
+
+.wwd-bg{
+	max-width: 100%;
+	max-height: 450px;
+}
+
+.wwd-info img{
+	margin: 20px;
+	padding: 10px;
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	
+}
+
+.wwd-info{
+	text-align: center;
+}
